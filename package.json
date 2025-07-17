@@ -1,0 +1,51 @@
+{
+  "name": "billingsoftware",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "company": "set NODE_ENV=development && set USE_PORT=API_PORT && nodemon --experimental-modules src/company.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "crypto-js": "^4.1.1",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.2",
+    "excel4node": "^1.7.2",
+    "exceljs": "^4.4.0",
+    "express": "^4.17.1",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security",
+    "html-pdf": "^3.0.1",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^8.5.1",
+    "libphonenumber-js": "^1.10.7",
+    "moment": "^2.25.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "node-fetch": "^2.6.0",
+    "node-xlsx": "^0.23.0",
+    "nodemailer": "^6.9.13",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^10.2.0",
+    "qrcode": "^1.5.3",
+    "sequelize": "^5.21.8",
+    "sharp": "^0.33.3",
+    "tls-sig-api-v2": "^1.0.2",
+    "utf8": "^3.0.0",
+    "xlsx": "^0.19.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}

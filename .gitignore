@@ -1,0 +1,9 @@
+node_modules
+documents
+propertyImages
+#uploads
+storeImages
+productImages
+categoryImages
+z_export
+src/config/development.js
